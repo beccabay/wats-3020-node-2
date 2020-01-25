@@ -1,8 +1,8 @@
 /*
-Description: 
-Input:
-Output:
-Usage: 
+Description: an adaptation of the FizzBuzz algorithm but with a function.
+Input: an integer
+Output: a list of numbers, with fizz if dividable by 3, buss if divisable by 5, and fizzbuzz if divisable by both
+Usage: node 2-fizzbuzz-fun <integer>
 */
 
 // get input using getargs
@@ -23,7 +23,7 @@ function fizzbuzz(n) {
 }
 
 if (isNaN(input) || !Number .isInteger(input) ) {
-  console.log("usage :node 1-fizzbuzz <integer>");
+  console.log("usage :node 2-fizzbuzz-fun <integer>");
 }
 else {
   for (let i = 1; i <= input; i++) {

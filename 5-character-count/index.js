@@ -1,4 +1,3 @@
-//TODO fill in comment template
 /*
 Description: a program that takes a string as input and counts how many of each character are in that string.
 Input: 
