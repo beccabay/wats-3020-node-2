@@ -1,4 +1,3 @@
-//TODO fill in comment template
 /*
 Description: a program that takes a string as input and reverses it by iterating through the string, character by character.
 Input: a string
@@ -12,7 +11,6 @@ let input = getargs.getStringArg()
 
 function reverseWithFullIteration(str) {
     let result = '';
-    // TODO loop from end of str (str.length-1) to beginning
     for (let i = str.length-1; i>=0; i-- ) {
     result = result += str[i];
     }

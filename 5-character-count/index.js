@@ -1,7 +1,7 @@
 /*
 Description: a program that takes a string as input and counts how many of each character are in that string.
-Input: 
-Output:
+Input: a string
+Output: the string in alist of charatchers and the amount those characters are seen
 Usage: node 5-charachter-count <string>
 */
 

@@ -1,4 +1,3 @@
-//TODO fill in comment template
 /*
 Description: a program that takes a string as input and reverses it using JavaScript string methods.
 Input: a string
